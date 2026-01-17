@@ -48,11 +48,11 @@
 *Proceed through installation script by just hitting enter it will do everything for you*
 
 *Create an [issue](https://github.com/anonyaro/XFIChecker/issues/new) if you face installation problems make sure to describe an issue with following structure:*
-
+```
 *Platform: your platform name*
 *Error code: error code or log output*
 *Error occurance file e.g: build.sh or core/xfiler.cpp*
-
+```
 *Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
 # Usage
