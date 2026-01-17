@@ -107,38 +107,24 @@ style="display:block;"
 />
 </a>
 
-Installation
-Windows x64
-
-Download the latest release from Releases.
-
-Unzip the archive and run XFIChecker.exe.
-
-Linux x86-64
-
-Download the project via: git clone https://github.com/anonyaro/XFIChecker.git
-Then: cd XFIChecker
-Finally run: bash build.sh or make it executable with +x permission and run ./build.sh
-
-Run it: ./XFIChecker
-
-Building from Source
-
-Requirements:
-
-* C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)
-
-CMake 3.15+
+# Building from Source
 
 git clone https://github.com/anonyaro/XFIChecker.git
 cd XFIChecker
 cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
 cmake --build release or debug 
+
+# Requirements:
+
+- *C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)*
+
+- *CMake 3.15+*
+
 <a name="license"></a>License & Mandatory Attribution
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
+<strong> # This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
 
-🔴 Section 7(b) Mandatory Notice
+Section 7(b) Mandatory Notice
 
 In accordance with Section 7(b) of the GNU AGPLv3, any work incorporating this software must preserve and display the following legal notices in its user interface:
 
@@ -151,3 +137,4 @@ Support: https://www.donationalerts.com/r/xenyaro
 These notices, including the "Verified by XFIChecker" message and donation links, must remain visible in the TUI/CLI output, "About" dialogs, and any derivative works.
 
 Copyright (C) 2026 anonyaro
+</strong>
