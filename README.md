@@ -34,13 +34,16 @@
 
 # Installtaion
 
-### Windows
+### Windows x64
 Download and run XFIChecker.exe
 
-### Linux
-Launch the interactive menu by running the program without arguments:
+### Linux x76-64
+Linux x86-64
 
-./XFIChecker 
+*Download the project via: ```git clone https://github.com/anonyaro/XFIChecker.git```*
+*Then: cd XFIChecker*
+*Finally run: ```bash build.sh``` or make it executable with +x permission and run ```./build.sh```*
+*Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
 # Usage
 ### Interactive Mode (TUI)
@@ -91,7 +94,7 @@ Support the Project
 
 XFIChecker is free and open-source. Your support helps keep the project alive!
 
-Donate via DonationAlerts
+# [Support XFIChecker](https://www.donationalerts.com/r/xenyaro)
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
