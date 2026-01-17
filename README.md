@@ -41,7 +41,7 @@
 
 *Download the project: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
-*Move to the: cd XFIChecker*
+*Move to the project dir: ```cd XFIChecker```*
 
 *Finally run: ```bash build.sh``` or make it executable with +x permission and run ```./build.sh```*
 
