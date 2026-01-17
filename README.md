@@ -142,11 +142,11 @@ Section 7(b) Mandatory Notice
 
 In accordance with Section 7(b) of the GNU AGPLv3, any work incorporating this software must preserve and display the following legal notices in its user interface:
 
-Author: [anonyaro](https://github.com/anonyaro)
+Author: anonyaro (https://github.com/anonyaro)
 
-Project: [XFIChecker](https://github.com/anonyaro/XFIChecker)
+Project: XFIChecker (https://github.com/anonyaro/XFIChecker)
 
-Support: [Link](https://www.donationalerts.com/r/xenyaro)
+Support: https://www.donationalerts.com/r/xenyaro
 
 These notices, including the "Verified by XFIChecker" message and donation links, must remain visible in the TUI/CLI output, "About" dialogs, and any derivative works.
 
