@@ -34,16 +34,16 @@
 
 # Installtaion
 
-### Interactive Mode (TUI)
-# Windows
+### Windows
 Download and run XFIChecker.exe
 
-# Linux
+### Linux
 Launch the interactive menu by running the program without arguments:
 
 ./XFIChecker 
 
 # Usage
+### Interactive Mode (TUI)
 ### Menu Structure:
 ```
 __________________________________________________________
