@@ -32,14 +32,19 @@
   </tr>
 </table>
 
-# Usage
+# Installtaion
 
 ### Interactive Mode (TUI)
+#Windows
+Download and run XFIChecker.exe
+
+#Linux
 Launch the interactive menu by running the program without arguments:
 
-./XFIChecker
+./XFIChecker 
 
-Menu Structure:
+#Usage
+###Menu Structure:
 ```
 __________________________________________________________
 >  __  __ _____ ___   ____ _               _             <
@@ -60,9 +65,9 @@ Support XFIChecker:                         \\__\anonyaro/
 [0] Exit Program
 ```
 
-⚡ CLI Mode (Command Line)
+###CLI Mode (Command Line)
 
-Execute actions directly using flags:
+#Execute actions directly using flags:
 
 Calculate hash:
 XFIChecker --calculate <file> <algo>
