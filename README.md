@@ -49,13 +49,14 @@
 
 *Proceed through installation script by just hitting enter it will do everything for you*
 
+*You can launch the interactive menu by running the program without passing any arguments: ```./release/XFIChecker```*
+
 *Create an [issue](https://github.com/anonyaro/XFIChecker/issues/new) if you face installation or building problems make sure to describe an issue, e.g below:*
 ```
 Platform: your platform name
 Error code: error code or log output
 Error occurance file and line e.g: build.sh or !warning 55:58 core/xfiler.cpp exception ...
 ```
-*Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
 # Usage
 ### Interactive Mode (TUI) Structure:
