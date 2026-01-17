@@ -146,6 +146,7 @@ gantt
     section Adler32 (3375ms)
     3.37s           :a3, 0, 3375
 ```
+### 📋 Detailed 
 ```
 Algorithm	Avg. Time	Estimated Speed	Status
 DJB2	0.851 s	~1203 MB/s	⚡ Ultra Fast
