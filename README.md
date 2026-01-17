@@ -102,9 +102,9 @@ Unzip the archive and run XFIChecker.exe.
 
 Linux x86-64
 
-Download the binary.
-
-Make it executable: chmod +x ./XFIChecker
+Download the project via: git clone https://github.com/anonyaro/XFIChecker.git
+Then: cd XFIChecker
+Finally run: bash build.sh or make it executable with +x permission and run ./build.sh
 
 Run it: ./XFIChecker
 
@@ -112,14 +112,14 @@ Building from Source
 
 Requirements:
 
-C++17 compatible compiler (MSVC 2022, GCC 11+, or Clang 13+)
+* C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)
 
 CMake 3.15+
 
 git clone https://github.com/anonyaro/XFIChecker.git
 cd XFIChecker
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build
+cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
+cmake --build release or debug 
 <a name="license"></a>License & Mandatory Attribution
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
