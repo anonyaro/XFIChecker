@@ -106,7 +106,7 @@ Support XFIChecker:                         \\__\anonyaro/
 
 # [Support XFIChecker](https://www.donationalerts.com/r/xenyaro)
 
-***XFIChecker is free and open-source. Your support helps keep the project alive!***
+### XFIChecker is free and open-source. Your support helps keep the project alive!
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
