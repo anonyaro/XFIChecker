@@ -133,6 +133,12 @@ cmake --build release
 
 <a name="license"></a>
 
+# 🤝 Contributing
+
+*Contributions are welcome! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your help is appreciated.*
+
+*Please read our [Contributing Guidelines](CONTRIBUTING.md) before getting started.*
+
 # 📜 License & Mandatory Attribution
 ### This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
 
