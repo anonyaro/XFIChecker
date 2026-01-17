@@ -45,7 +45,7 @@
 
 *Finally run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
 
-*Proceed through installation script by just hitting enter it will do everything for you*
+*Proceed through installation script by just hitting enter it will do everything for you, make sure you have #Prerequisites*
 
 *Create an [issue](https://github.com/anonyaro/XFIChecker/issues/new) if you face installation problems make sure to describe an issue e.g below:*
 ```
