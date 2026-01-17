@@ -7,7 +7,7 @@ XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for cal
 <td width="256" valign="top" align="center">
   <a href="https://github.com/anonyaro/XFIChecker">
     <img 
-      src="https://github.com/user-attachments/assets/59cb79ee-c11f-42ec-bcf9-5474e8426e24"
+      src="https://github.com/user-attachments/assets/7bf99ca8-a433-4c6f-abce-c1fec3f920f7"
       width="256" height="256"
       alt="logo"
       style="display:block;"
