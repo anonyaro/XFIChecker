@@ -32,7 +32,7 @@
   </tr>
 </table>
 
-# Installtaion
+# Installation
 
 ### Windows x64
 *Download and run XFIChecker.exe*
