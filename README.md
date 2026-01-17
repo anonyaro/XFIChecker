@@ -40,18 +40,24 @@ XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for cal
 
 # Usage
 
-### 🖥️ Interactive Mode (TUI)
+### Interactive Mode (TUI)
 Launch the interactive menu by running the program without arguments:
 
 ./XFIChecker
 
 Menu Structure:
-[1] Calculate Hash
-[2] Verify Integrity
-[3] About XFIChecker
-[4] Support the XFIChecker
-[5] Help to see more and usage sample
-[0] Exit Program
+```
+__________________________________________________________
+>  __  __ _____ ___   ____ _               _             <
+>  \ \/ /|  ___|_ _| / ___| |__   ___  ___| | _____ _ __ <
+>   \  / | |_   | | | |   | '_ \ / _ \/ __| |/ / _ \ '__|<
+>   /  \ |  _|  | | | |___| | | |  __/ (__|   <  __/ |   <
+>  /_/\_\|_|   |___| \____|_| |_|\___|\___|_|\_\___|_|   <
+>________________________________________________~ ~ ~ ~ <
+                                            //  /   by   \
+Support XFIChecker:                         \\__\anonyaro/
+>https://www.donationalerts.com/r/xenyaro<       \______/
+```
 
 ⚡ CLI Mode (Command Line)
 
