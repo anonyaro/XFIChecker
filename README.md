@@ -80,7 +80,7 @@ Support XFIChecker:                         \\__\anonyaro/
 [5] Help to see more and usage sample
 [0] Exit Program
 ```
-***Accepts numbers to proceed e.g: ```1 | 2 | 3 | 4 | 5```***  
+***Navigate through numbers available to proceed e.g: ```1 | 2 | 3 | 4 | 5 | 6```***  
 
 # CLI Mode (Command Line)
 ### Execute actions directly using flags:
