@@ -98,6 +98,17 @@ Support XFIChecker:                         \\__\anonyaro/
         -v, --version                    Show current version info and license info
         -cu, --check-updates             Check for available updates and versions
 
+# Building from Source
+*First clone the repo: ```git clone https://github.com/anonyaro/XFIChecker.git```*
+
+*Then simply run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
+
+*For manual build follow steps below:*
+```
+cd XFIChecker
+cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
+cmake --build release or debug for debug build
+```
 
 # [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
 
@@ -110,17 +121,6 @@ style="display:block;"
 />
 </a>
 
-# Building from Source
-*First clone the repo: ```git clone https://github.com/anonyaro/XFIChecker.git```*
-
-*Then simply run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
-
-*For manual build follow steps below:*
-```
-cd XFIChecker
-cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
-cmake --build release or debug for debug build
-```
 # Requirements:
 
 - *C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)*
