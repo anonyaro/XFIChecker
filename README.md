@@ -37,12 +37,14 @@
 ### Windows x64
 Download and run XFIChecker.exe
 
-### Linux x76-64
-Linux x86-64
+### Linux x86-64
 
 *Download the project via: ```git clone https://github.com/anonyaro/XFIChecker.git```*
+
 *Then: cd XFIChecker*
+
 *Finally run: ```bash build.sh``` or make it executable with +x permission and run ```./build.sh```*
+
 *Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
 # Usage
