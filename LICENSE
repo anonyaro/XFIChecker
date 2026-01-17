@@ -618,6 +618,15 @@ copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS
 
+                     MANDATORY ATTRIBUTION NOTICE 
+  In accordance with Section 7(b) of the GNU AGPLv3, the following
+appropriate legal notices must be preserved and displayed in the
+user interface of any work incorporating this software:
+
+  Author: anonyaro (github.com/anonyaro)
+Project: XFIChecker (https://github.com/anonyaro/XFIChecker)
+Support: https://www.donationalerts.com/r/xenyaro
+
             How to Apply These Terms to Your New Programs
 
   If you develop a new program, and you want it to be of the greatest
@@ -659,3 +668,5 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+
