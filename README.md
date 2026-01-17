@@ -83,7 +83,7 @@ Support XFIChecker:                         \\__\anonyaro/
 ### Execute actions directly using flags:
 
 **Calculate hash:**
-*```./XFIChecker --calculate <file> <algo>```*
+*```./XFIChecker --calculate <file> <-fnv1a|-djb2|-adler32>```*
 
 **Verify file integrity:**
 ```./XFIChecker --verify <file> --expected <hash>```
