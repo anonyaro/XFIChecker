@@ -35,7 +35,7 @@
 # Installtaion
 
 ### Windows x64
-Download and run XFIChecker.exe
+*Download and run XFIChecker.exe*
 
 ### Linux x86-64
 
@@ -48,8 +48,8 @@ Download and run XFIChecker.exe
 *Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
 # Usage
-### Interactive Mode (TUI)
-### Menu Structure:
+### Interactive Mode (TUI) Structure:
+
 ```
 __________________________________________________________
 >  __  __ _____ ___   ____ _               _             <
