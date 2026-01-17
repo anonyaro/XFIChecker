@@ -43,7 +43,7 @@
 
 *Move to the project dir: ```cd XFIChecker```*
 
-*Finally run: ```bash build.sh``` or make it executable with +x permission and run ```./build.sh```*
+*Finally run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
 
 *Proceed through installation script by just hitting enter it will do everything for you*
 
