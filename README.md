@@ -152,6 +152,12 @@ DJB2	0.851 s	~1203 MB/s	⚡ Ultra Fast
 FNV1a	1.065 s	~961 MB/s	🚀 High Performance
 Adler32	3.375 s	~303 MB/s	⚖️ Balanced
 ```
+### 🖥️ Testing Environment
+- **OS**: Windows 11 / Ubuntu 22.04 (WSL2)
+- **CPU**: Intel Core i7-XXXX (укажи свою модель)
+- **Compiler**: GCC 11.x (or Clang)
+- **Disk**: NVMe SSD (Ext4 filesystem)
+- **Method**: Measured using `hyperfine` (10 runs, 3 warmups)
 
 # 🤝 Contributing
 
