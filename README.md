@@ -154,8 +154,8 @@ Adler32	3.375 s	~303 MB/s	⚖️ Balanced
 ```
 ### 🖥️ Testing Environment
 - **OS**: Windows 11 / Ubuntu 22.04 (WSL2)
-- **CPU**: Intel Core i7-XXXX (укажи свою модель)
-- **Compiler**: GCC 11.x (or Clang)
+- **CPU**: Ryzen 5 5600X (PBO2+CO up to 4.85Ghz core 0 & core 4)
+- **Compiler**: GCC 11.4.0
 - **Disk**: NVMe SSD (Ext4 filesystem)
 - **Method**: Measured using `hyperfine` (10 runs, 3 warmups)
 
