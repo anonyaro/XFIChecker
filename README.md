@@ -136,13 +136,15 @@ cmake --build release
 # ⚡ Perfomance of XFIChecker calculating hash of 1024MB file based on hyperfine
 
 gantt
-    title XFIChecker Performance (Time to process 1GB)
+    title XFIChecker Performance (Execution Time)
     dateFormat  X
     axisFormat %s
-    section Execution Time (Lower is better)
-    DJB2 (Fastest)    : 0, 852
-    FNV1a             : 0, 1065
-    Adler32           : 0, 3375
+    section DJB2 (852ms)
+    0.85s           :a1, 0, 852
+    section FNV1a (1065ms)
+    1.06s           :a2, 0, 1065
+    section Adler32 (3375ms)
+    3.37s           :a3, 0, 3375
 
 ```
 Algorithm	Avg. Time	Estimated Speed	Status
