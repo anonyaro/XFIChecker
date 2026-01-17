@@ -101,6 +101,8 @@ Support XFIChecker:                         \\__\anonyaro/
 
 *-h, --help: Show help message.*
 
+*-v, --version: Show XFIChecker's version*
+
 
 # [Support XFIChecker](https://www.donationalerts.com/r/xenyaro)
 
