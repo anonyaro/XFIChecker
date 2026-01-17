@@ -95,13 +95,11 @@ Support XFIChecker:                         \\__\anonyaro/
 
 ***General flags:***
 
-*-a, --about: Show author, project and license info.*
-
-*-s, --support: Redirect for project support.*
-
-*-h, --help: Show help message.*
-
-*-v, --version: Show XFIChecker's version*
+        -a, --about                      Show author, project and license info
+        -s, --support                    Show donation link (Forward Redirection)
+        -h, --help                       Show this help message
+        -v, --version                    Show current version info and license info
+        -cu, --check-updates             Check for available updates and versions
 
 
 # [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
@@ -122,9 +120,9 @@ style="display:block;"
 
 *For manual build follow steps below:*
 ```
-*cd XFIChecker*
-*cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build*
-*cmake --build release or debug for debug build*
+cd XFIChecker
+cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
+cmake --build release or debug for debug build
 ```
 # Requirements:
 
