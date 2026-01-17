@@ -87,17 +87,18 @@ Support XFIChecker:                         \\__\anonyaro/
 
 *Available algorithms: -fnv1a, -djb2, -adler32*
 
-
 **Verify file integrity:**
 ```./XFIChecker --verify <file> --expected <hash>```
 
 **(Accepts hash in: 0x prefix or raw hex)**
 
+***See ```./XFIChecker -help``` or ```./XFIChecker --h``` for detailed information***
+
 ***General flags:***
 
         -a, --about                      Show author, project and license info
         -s, --support                    Show donation link (Forward Redirection)
-        -h, --help                       Show this help message
+        -h, --help                       Show help message and available flags
         -v, --version                    Show current version info and license info
         -cu, --check-updates             Check for available updates and versions
 
