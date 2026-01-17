@@ -70,18 +70,17 @@ Support XFIChecker:                         \\__\anonyaro/
 [0] Exit Program
 ```
 
-### CLI Mode (Command Line)
+# CLI Mode (Command Line)
+### Execute actions directly using flags:
 
-# Execute actions directly using flags:
+**Calculate hash:**
+*```./XFIChecker --calculate <file> <algo>```*
+*Available algorithms: -fnv1a, -djb2, -adler32*
+*```XFIChecker --calculate filename -fnv1a```*
 
-Calculate hash:
-XFIChecker --calculate <file> <algo>
-Available algorithms: -fnv1a, -djb2, -adler32
-Example: XFIChecker --calculate filename -fnv1a
-
-Verify file integrity:
-XFIChecker --verify <file> --expected <hex>
-(Accepts 0x prefix or raw hex)
+**Verify file integrity:**
+```./XFIChecker --verify <file> --expected <hex>```
+**(Accepts 0x prefix or raw hex)**
 Example: XFIChecker --verify filename --expected 0xA1B2C3D4F5
 
 General flags:
