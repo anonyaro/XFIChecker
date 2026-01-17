@@ -122,8 +122,9 @@ cmake --build release or debug
 
 <a name="license"></a>License & Mandatory Attribution
 
-<strong> # This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
+# This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
 
+<strong> 
 Section 7(b) Mandatory Notice
 
 In accordance with Section 7(b) of the GNU AGPLv3, any work incorporating this software must preserve and display the following legal notices in its user interface:
