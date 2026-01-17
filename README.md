@@ -4,17 +4,18 @@ XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for cal
 
 <table>
 <tr>
-<td width="256" valign="top" align="center">
+<!-- Изменили valign на middle и убрали лишний display:block у картинки -->
+<td width="256" valign="middle" align="center">
   <a href="https://github.com/anonyaro/XFIChecker">
     <img 
       src="https://github.com/user-attachments/assets/7bf99ca8-a433-4c6f-abce-c1fec3f920f7"
       width="256" height="256"
       alt="logo"
-      style="display:block;"
     />
   </a>
 </td>
-<td valign="top" style="padding-left:20px;">
+<!-- Здесь тоже можно поставить middle, чтобы текст был симметричен иконке -->
+<td valign="middle" style="padding-left:20px;">
   <strong style="font-size:22px; display:block; margin-bottom:0.5em;">
     XFIChecker v1.0.0 — Interactive File Integrity Tool
   </strong>
