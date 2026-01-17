@@ -39,7 +39,7 @@
 
 ### Linux x86-64
 
-*Download the project via: ```git clone https://github.com/anonyaro/XFIChecker.git```*
+*Download the project: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
 *Move to the: cd XFIChecker*
 
