@@ -45,16 +45,12 @@ Launch the interactive menu by running the program without arguments:
 ./XFIChecker
 
 Menu Structure:
-
 [1] Calculate Hash
-
 [2] Verify Integrity
-
 [3] About XFIChecker
-
 [4] Support the XFIChecker
-
-[5] Help & Usage Samples
+[5] Help to see more and usage sample
+[0] Exit Program
 
 ⚡ CLI Mode (Command Line)
 
