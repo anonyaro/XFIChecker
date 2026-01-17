@@ -134,7 +134,7 @@ cmake --build release
 <a name="license"></a>
 
 # ⚡ Perfomance of XFIChecker calculating hash of 1024MB file based on hyperfine
-
+```mermaid 
 gantt
     title XFIChecker Performance (Execution Time)
     dateFormat  X
@@ -145,7 +145,7 @@ gantt
     1.06s           :a2, 0, 1065
     section Adler32 (3375ms)
     3.37s           :a3, 0, 3375
-
+```
 ```
 Algorithm	Avg. Time	Estimated Speed	Status
 DJB2	0.851 s	~1203 MB/s	⚡ Ultra Fast
