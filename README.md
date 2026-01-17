@@ -1,10 +1,6 @@
-# XFIChecker
-
-XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for calculating file hash and verify file hash integrity.
 
 <table>
   <tr>
-    <!-- Задаем фиксированную ширину и центрируем содержимое -->
     <td width="256" align="center" valign="middle" style="padding: 0 !important; line-height: 0; background-color: transparent;">
       <a href="https://github.com/anonyaro/XFIChecker">
         <img 
