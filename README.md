@@ -32,12 +32,12 @@
   </tr>
 </table>
 
-# Installation
+#  📦 Installation
 
-### Windows x64
+### 🪟 Windows x64
 *Download and run XFIChecker.exe*
 
-### Linux x86-64
+### 🐧 Linux x86-64
 
 ***Before installing make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#prerequisites) installed***
 
@@ -58,8 +58,8 @@ Error code: error code or log output
 Error occurance file and line e.g: build.sh or !warning 55:58 core/xfiler.cpp exception ...
 ```
 
-# Usage
-### Interactive Mode (TUI) Structure:
+#  🚀 Usage
+### 🖥️ Interactive Mode (TUI) Structure:
 
 ```
 __________________________________________________________
@@ -82,7 +82,7 @@ Support XFIChecker:                         \\__\anonyaro/
 ```
 ***Navigate through numbers available to proceed e.g: ```1 | 2 | 3 | 4 | 5 | 6```***  
 
-# CLI Mode (Command Line)
+# 💻 CLI Mode (Command Line)
 ### Execute actions directly using flags:
 
 **Calculate hash:**
@@ -101,7 +101,7 @@ Support XFIChecker:                         \\__\anonyaro/
         -v, --version                    Show current version info and license info
         -cu, --check-updates             Check for available updates and versions
 
-# [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
+# 💖 [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
@@ -112,7 +112,7 @@ style="display:block;"
 />
 </a>
 
-# Building from Source
+# 🏗️ Building from Source
 *First clone the repo: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
 *Then simply run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
@@ -133,7 +133,7 @@ cmake --build release
 
 <a name="license"></a>
 
-# License & Mandatory Attribution
+# 📜 License & Mandatory Attribution
 ### This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
 
 <strong> 
