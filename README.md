@@ -133,6 +133,23 @@ cmake --build release
 
 <a name="license"></a>
 
+# Benchmark of XFIChecker calculating hash of 1024MB file based on hyperfine
+gantt
+    title XFIChecker Performance (Time to process 1GB)
+    dateFormat  X
+    axisFormat %s
+    section Execution Time (Lower is better)
+    DJB2 (Fastest)    : 0, 852
+    FNV1a             : 0, 1065
+    Adler32           : 0, 3375
+
+```
+Algorithm	Avg. Time	Estimated Speed	Status
+DJB2	0.851 s	~1203 MB/s	⚡ Ultra Fast
+FNV1a	1.065 s	~961 MB/s	🚀 High Performance
+Adler32	3.375 s	~303 MB/s	⚖️ Balanced
+```
+
 # 🤝 Contributing
 
 *Contributions are welcome! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your help is appreciated.*
