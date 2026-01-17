@@ -89,23 +89,24 @@ Support XFIChecker:                         \\__\anonyaro/
 
 
 **Verify file integrity:**
-```./XFIChecker --verify <file> --expected <hex>```
+```./XFIChecker --verify <file> --expected <hash>```
 
-**(Accepts 0x prefix or raw hex)**
+**(Accepts hash in: 0x prefix or raw hex)**
 
-General flags:
+***General flags:***
 
--a, --about: Show author, project and license info.
+*-a, --about: Show author, project and license info.*
 
--s, --support: Show donation link.
+*-s, --support: Redirect for project support.*
 
--h, --help: Show help message.
+*-h, --help: Show help message.*
 
-Support the Project
-
-XFIChecker is free and open-source. Your support helps keep the project alive!
 
 # [Support XFIChecker](https://www.donationalerts.com/r/xenyaro)
+
+***Support the Project***
+
+***XFIChecker is free and open-source. Your support helps keep the project alive!***
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
