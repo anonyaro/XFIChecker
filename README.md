@@ -86,7 +86,7 @@ Donate via DonationAlerts
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
-src="https://github.com/user-attachments/assets/9e259186-ca6b-459a-8344-252e49c7c8cd" />
+src="https://github.com/user-attachments/assets/9e259186-ca6b-459a-8344-252e49c7c8cd"
 width="300" height="200"
 alt="support"
 style="display:block;"
