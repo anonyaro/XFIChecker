@@ -121,11 +121,11 @@ style="display:block;"
 />
 </a>
 
-# Requirements:
+### 🛠 Prerequisites
 
-- *C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)*
-
-- *CMake 3.15+*
+- **Compiler**: C++17 (MSVC 2019+, GCC 8+, or Clang 7+)
+- **Build System**: [CMake](https://cmake.org/) 3.15+
+- **Generator**: [Ninja](https://ninja-build.org/) (recommended)
 
 <a name="license"></a>
 
