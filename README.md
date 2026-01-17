@@ -124,7 +124,7 @@ cmake -B release -DCMAKE_BUILD_TYPE=Release or Debug for debug build
 cmake --build release
 ```
 
-# Prerequisites
+# 📋 Prerequisites
 
 - **Compiler**: C++17 (MSVC 2019+, GCC 8+, or Clang 7+)
 - **Build System**: [CMake](https://cmake.org/) 3.15+
