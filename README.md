@@ -59,7 +59,7 @@ Error occurance file and line e.g: build.sh or !warning 55:58 core/xfiler.cpp ex
 ```
 
 #  🚀 Usage
-### 🖥️ Interactive Mode (TUI) Structure:
+## 🖥️ Interactive Mode (TUI) Structure:
 
 ```
 __________________________________________________________
@@ -82,7 +82,7 @@ Support XFIChecker:                         \\__\anonyaro/
 ```
 ***Navigate through numbers available to proceed e.g: ```1 | 2 | 3 | 4 | 5 | 6```***  
 
-# 💻 CLI Mode (Command Line)
+## 💻 CLI Mode (Command Line)
 ### Execute actions directly using flags:
 
 **Calculate hash:**
