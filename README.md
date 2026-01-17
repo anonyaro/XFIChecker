@@ -134,6 +134,7 @@ cmake --build release
 <a name="license"></a>
 
 # ⚡ Perfomance of XFIChecker calculating hash of 1024MB file based on hyperfine
+
 gantt
     title XFIChecker Performance (Time to process 1GB)
     dateFormat  X
