@@ -4,34 +4,35 @@ XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for cal
 
 <table>
 <tr>
-<!-- Изменили valign на middle и убрали лишний display:block у картинки -->
-<td width="256" valign="center" align="center">
+<!-- Убираем padding у ячейки и ставим правильный valign -->
+<td width="256" valign="middle" align="center" style="padding: 0; margin: 0; line-height: 0;">
   <a href="https://github.com/anonyaro/XFIChecker">
     <img 
       src="https://github.com/user-attachments/assets/e645f257-ed3f-46c2-ab80-7a304a6aed3e"
-      width="256" height="320"
+      width="256"
       alt="logo"
+      style="display: block; width: 100%; height: auto; border: none;"
     />
   </a>
 </td>
-<!-- Здесь тоже можно поставить middle, чтобы текст был симметричен иконке -->
-<td valign="middle" style="padding-left:20px;">
-  <strong style="font-size:22px; display:block; margin-bottom:0.5em;">
+<!-- Контентная часть с отступом слева для текста -->
+<td valign="middle" style="padding-left: 20px;">
+  <strong style="font-size: 22px; display: block; margin-bottom: 0.5em;">
     XFIChecker v1.0.0 — Interactive File Integrity Tool
   </strong>
-  <p style="margin:0 0 1em 0;">
+  <p style="margin: 0 0 1em 0;">
     High-speed integrity verification using lightweight hash algorithms.
   </p>
-  <b style="display:block; margin-bottom:0.5em;">
+  <b style="display: block; margin-bottom: 0.5em;">
     Key Features
   </b>
-  <p style="margin:0;">
+  <p style="margin: 0;">
     • <b>Optimized Speed:</b> Uses fast algorithms like FNV1a, DJB2, and Adler32.<br/>
     • <b>Dual Interface:</b> Full TUI interactive menu or quick CLI commands.<br/>
     • <b>Verification:</b> Easily check files against expected hex hashes.<br/>
     • <b>Resource Efficient:</b> Minimal RAM and CPU footprint.
   </p>
-  <p style="margin-top:0.5em;">
+  <p style="margin-top: 0.5em;">
     <strong>⚠️ PLEASE READ THE <a href="https://github.com/anonyaro/XFIChecker/blob/master/LICENSE">LICENSE</a> BEFORE INSTALLING AND USING XFICHECKER.</strong>
   </p>
 </td>
