@@ -41,7 +41,7 @@ XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for cal
 
 ### 🖥️ Interactive Mode (TUI)
 Launch the interactive menu by running the program without arguments:
-```bash
+
 ./XFIChecker
 
 Menu Structure:
@@ -112,15 +112,10 @@ Building from Source
 
 Requirements:
 
-C++20 compatible compiler (MSVC 2022, GCC 11+, or Clang 13+)
+C++17 compatible compiler (MSVC 2022, GCC 11+, or Clang 13+)
 
-CMake 3.20+
+CMake 3.15+
 
-code
-Bash
-download
-content_copy
-expand_less
 git clone https://github.com/anonyaro/XFIChecker.git
 cd XFIChecker
 cmake -B build -DCMAKE_BUILD_TYPE=Release
