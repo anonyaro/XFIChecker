@@ -120,8 +120,8 @@ style="display:block;"
 *For manual build follow steps below:*
 ```
 cd XFIChecker
-cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
-cmake --build release or debug for debug build
+cmake -B . -DCMAKE_BUILD_TYPE=Release or Debug for debug build
+cmake --build .
 ```
 
 # Prerequisites
