@@ -132,9 +132,10 @@ cmake --build release or debug
 
 - *CMake 3.15+*
 
-<a name="license"></a>License & Mandatory Attribution
+<a name="license"></a>
 
-# This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
+# License & Mandatory Attribution
+### This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
 
 <strong> 
 Section 7(b) Mandatory Notice
