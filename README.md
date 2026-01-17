@@ -104,7 +104,7 @@ Support XFIChecker:                         \\__\anonyaro/
 *-v, --version: Show XFIChecker's version*
 
 
-# [XFIChecker is free and open-source. <br> Your support helps keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
+# [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
