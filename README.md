@@ -51,7 +51,7 @@
 ```
 Platform: your platform name
 Error code: error code or log output
-Error occurance file e.g: build.sh or core/xfiler.cpp
+Error occurance file and line e.g: build.sh or !warning 55:58 core/xfiler.cpp exception ...
 ```
 *Launch the interactive menu by running the program without arguments: ```./XFIChecker```*
 
