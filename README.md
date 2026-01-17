@@ -39,13 +39,15 @@
 
 ### Linux x86-64
 
+***Before installing make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#prerequisites) installed***
+
 *Download the project: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
 *Move to the project dir: ```cd XFIChecker```*
 
 *Finally run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
 
-*Proceed through installation script by just hitting enter it will do everything for you, make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#prerequisites) installed*
+*Proceed through installation script by just hitting enter it will do everything for you*
 
 *Create an [issue](https://github.com/anonyaro/XFIChecker/issues/new) if you face installation problems make sure to describe an issue e.g below:*
 ```
