@@ -1,7 +1,3 @@
-# XFIChecker
-
-XFIChecker is a cross-platform, lightweight, fast CLI and TUI based tool for calculating file hash and verify file hash integrity.
-
 <table>
   <tr>
     <td width="256" align="center" valign="middle" style="padding: 0 !important; line-height: 0; background-color: transparent;">
@@ -55,6 +51,13 @@ __________________________________________________________
                                             //  /   by   \
 Support XFIChecker:                         \\__\anonyaro/
 >https://www.donationalerts.com/r/xenyaro<       \______/
+
+[1] Calculate Hash
+[2] Verify Integrity
+[3] About XFIChecker
+[4] Support the XFIChecker
+[5] Help to see more and usage sample
+[0] Exit Program
 ```
 
 ⚡ CLI Mode (Command Line)
