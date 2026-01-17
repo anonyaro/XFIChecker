@@ -133,7 +133,7 @@ cmake --build release
 
 <a name="license"></a>
 
-# ⚡ Perfomance of XFIChecker on 1GB file
+# ⚡ Perfomance of XFIChecker on 1GB file (under wsl2)
 ```mermaid 
 gantt
     title XFIChecker Performance (Execution Time)
