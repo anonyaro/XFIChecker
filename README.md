@@ -116,12 +116,16 @@ style="display:block;"
 </a>
 
 # Building from Source
-Simply run: ```bash build.sh``` or make it executable with +x permission and run ```./build.sh```
-git clone https://github.com/anonyaro/XFIChecker.git
-cd XFIChecker
-cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build
-cmake --build release or debug 
+*First clone the repo: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
+*Then simply run: ```bash build.sh``` or make it executable with +x flag and run ```./build.sh```*
+
+*For manual build follow steps below:*
+```
+*cd XFIChecker*
+*cmake -B build -DCMAKE_BUILD_TYPE=Release or Debug for debug build*
+*cmake --build release or debug for debug build*
+```
 # Requirements:
 
 - *C++17 compatible compiler (MSVC 2019+, GCC 8+, or Clang 7+)*
