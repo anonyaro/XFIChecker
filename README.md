@@ -85,12 +85,8 @@ Support XFIChecker:                         \\__\anonyaro/
 **Calculate hash:**
 *```./XFIChecker --calculate <file> <algo>```*
 
-*Available algorithms: -fnv1a, -djb2, -adler32*
-
 **Verify file integrity:**
 ```./XFIChecker --verify <file> --expected <hash>```
-
-**(Accepts hash in: 0x prefix or raw hex)**
 
 ***See ```./XFIChecker -help``` or ```./XFIChecker --h``` for detailed information***
 
