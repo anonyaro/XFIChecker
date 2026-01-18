@@ -1,0 +1,24 @@
+LOGO ICON "logo.ico"
+
+1 VERSIONINFO
+FILEVERSION 1, 0, 0
+PRODUCTVERSION 1, 0, 0
+BEGIN
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904B0"
+BEGIN
+VALUE "CompanyName", "anonyaro"
+VALUE "FileDescription", "XFiChecker file's hash generator"
+VALUE "FileVersion", "1.0.0"
+VALUE "InternalName", "XFiChecker"
+VALUE "OriginalFilename", "XFiChecker.exe"
+VALUE "ProductName", "XFiChecker"
+VALUE "ProductVersion", "1.0.0"
+END
+END
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x409, 1200
+END
+END
