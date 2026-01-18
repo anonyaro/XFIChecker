@@ -39,6 +39,27 @@
 ### 🪟 Windows x64
 *Download and run **[XFIChecker.exe](https://github.com/anonyaro/XFIChecker/releases/download/v1.0.0/XFIChecker.exe)**, only executable is needed, since it is a native C++ binary with **zero external dependencies***
 
+<details>
+<summary>🔍 View Windows Executable Analysis (Dumpbin)</summary>
+
+```text
+Dump of file .\XFIChecker.exe
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+    KERNEL32.dll  <-- Pure native performance
+
+  Summary
+        4000 .data
+        1000 .fptable
+        4000 .pdata
+       17000 .rdata
+        1000 .reloc
+       5B000 .rsrc
+       3F000 .text
+```
+</details>
+
 ### 🐧 Linux x86-64
 
 ***Before installing make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#-prerequisites) installed***
