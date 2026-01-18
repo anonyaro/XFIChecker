@@ -103,7 +103,7 @@ Support XFIChecker:                         \\__\anonyaro/
 
 # 💖 [XFIChecker is free and open-source <br> Your support helps to keep the project alive](https://dalink.to/xenyaro) </br>
 
-<a href="https://www.donationalerts.com/r/xenyaro">
+<a href="https://dalink.to/xenyaro">
 <img
 src="https://github.com/user-attachments/assets/9e259186-ca6b-459a-8344-252e49c7c8cd"
 width="300" height="300"
