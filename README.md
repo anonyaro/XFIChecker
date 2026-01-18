@@ -101,7 +101,7 @@ Support XFIChecker:                         \\__\anonyaro/
         -v, --version                    Show current version info and license info
         -cu, --check-updates             Check for available updates and versions
 
-# 💖 [XFIChecker is free and open-source <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
+# 💖 [XFIChecker is free and open-source <br> Your support helps to keep the project alive](https://dalink.to/xenyaro) </br>
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
@@ -179,7 +179,7 @@ Author: anonyaro (https://github.com/anonyaro)
 
 Project: XFIChecker (https://github.com/anonyaro/XFIChecker)
 
-Support: https://www.donationalerts.com/r/xenyaro
+Support: https://dalink.to/xenyaro
 
 These notices, including the "Verified by XFIChecker" message and donation links, must remain visible in the TUI/CLI output, "About" dialogs, and any derivative works.
 
