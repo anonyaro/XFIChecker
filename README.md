@@ -180,7 +180,7 @@ cmake --build build --target xfichecker_unit_tests
 ./build/xfichecker_unit_tests
 ```
 <details>
-<summary>🔍 View Unit-Test Output</summary>
+<summary>🔍 View Unit-Test Results</summary>
 
 ```text
 [==========] Running 4 tests from 1 test suite.
