@@ -28,7 +28,7 @@
 3. **Automated Testing (Mandatory)**:
    *We use **Google Test (GTest)** for unit testing.*
    
-   *If you modify the hashing logic or hashing engine, **run the existing tests**:*
+   *- If you modify the hashing logic or hashing engine, **run the existing tests**:*
      ```bash
      cmake -B build -DBUILD_TESTING=ON
      cmake --build build --target xfichecker_unit_tests
