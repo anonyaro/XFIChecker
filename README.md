@@ -134,7 +134,8 @@ cmake --build release
 <a name="license"></a>
 
 # ⚡ Perfomance of XFIChecker 
-```xychart-beta
+```
+xychart-beta
     title "Performance (Time in ms) - Lower is better"
     x-axis [DJB2, FNV1a, Adler32]
     y-axis "Execution Time (ms)" 0 --> 4000
