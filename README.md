@@ -35,7 +35,7 @@
 #  📦 Installation
 
 ### 🪟 Windows x64
-*Download and run XFIChecker.exe*
+*[Download](https://github.com/anonyaro/XFIChecker/releases/download/v1.0.0/XFIChecker.exe) and run XFIChecker.exe*
 
 ### 🐧 Linux x86-64
 
