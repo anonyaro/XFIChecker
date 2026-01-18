@@ -35,7 +35,7 @@
 #  📦 Installation
 
 ### 🪟 Windows x64
-*Download and run **[XFIChecker.exe](https://github.com/anonyaro/XFIChecker/releases/download/v1.0.0/XFIChecker.exe)**, since it is a native C++ binary with **zero external dependencies***
+*Download and run **[XFIChecker.exe](https://github.com/anonyaro/XFIChecker/releases/download/v1.0.0/XFIChecker.exe)**, only executable is needed, since it is a native C++ binary with **zero external dependencies***
 
 ### 🐧 Linux x86-64
 
