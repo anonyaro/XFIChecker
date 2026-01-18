@@ -1,0 +1,79 @@
+name: Build, Test and Release
+
+on:
+  push:
+    branches: [ "master", "main" ]
+    tags: [ 'v*' ] 
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive  # If GTests is/as submodule
+
+    - name: Install Ninja and Dependencies (Linux)
+      if: runner.os == 'Linux'
+      run: sudo apt-get update && sudo apt-get install -y ninja-build
+
+    - name: Setup MSVC (Windows only)
+      if: runner.os == 'Windows'
+      uses: ilammy/msvc-dev-cmd@v1
+
+    - name: Configure CMake
+      # Forwarding -DBUILD_TESTING=ON
+      run: cmake -G Ninja -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON
+
+    - name: Build Project
+      run: cmake --build build --config Release
+
+    - name: Run Unit Tests
+      # GActions check the return code of ctest to determine success/failure
+      run: |
+        cd build
+        ctest --output-on-failure
+
+    - name: Prepare Artifacts (Rename for clarity)
+      shell: bash
+      run: |
+        mkdir -p dist
+        if [ "${{ runner.os }}" == "Windows" ]; then
+          cp build/XFIChecker.exe dist/xfichecker-windows-x64.exe
+        else
+          cp build/XFIChecker dist/xfichecker-linux-x64
+          chmod +x dist/xfichecker-linux-x64
+        fi
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: xfichecker-${{ matrix.os }}
+        path: dist/*
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true 
+          # gathering files from all build folders
+          files: |
+            xfichecker-windows-latest/*
+            xfichecker-ubuntu-latest/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
