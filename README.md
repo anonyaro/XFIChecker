@@ -135,16 +135,11 @@ cmake --build release
 
 # ⚡ Perfomance of XFIChecker 
 ```mermaid
-gantt
-    title XFIChecker Performance (1GB File)
-    dateFormat  X
-    axisFormat %s
-    section DJB2 (Fastest)
-    852ms :done, a1, 0, 852
-    section FNV1a
-    1065ms :active, a2, 0, 1065
-    section Adler32 (Slowest)
-    3375ms :crit, a3, 0, 3375
+xychart-beta
+    title "Performance (Time in ms) - Lower is better"
+    x-axis [DJB2, FNV1a, Adler32]
+    y-axis "Execution Time (ms)" 0 --> 4000
+    bar [852, 1065, 3375]
 ```
 ### 📋 Detailed 
 *The following benchmarks show the processing time for a **1GB file** and performed under **wsl2***
