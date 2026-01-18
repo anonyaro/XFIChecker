@@ -168,21 +168,19 @@ Adler32	3.375 s	~303 MB/s	⚖️ Balanced
 
 *Please read our [Contributing Guidelines](CONTRIBUTING.md) before getting started.*
 
-# 📜 License & Mandatory Attribution
-### This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3).
+## 📜 License & Mandatory Attribution
 
-<strong> 
-Section 7(b) Mandatory Notice
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPLv3)**.
 
-In accordance with Section 7(b) of the GNU AGPLv3, any work incorporating this software must preserve and display the following legal notices in its user interface:
+### ⚖️ Section 7(b) Mandatory Notice
+**In accordance with **Section 7(b)** of the GNU AGPLv3, any work incorporating this software must preserve and display the following legal notices in its user interface:**
 
-Author: anonyaro (https://github.com/anonyaro)
+> **Author:** anonyaro ([github.com/anonyaro](https://github.com/anonyaro))  
+> **Project:** XFIChecker ([github.com/anonyaro/XFIChecker](https://github.com/anonyaro/XFIChecker))  
+> **Support:** [dalink.to/xenyaro](https://dalink.to/xenyaro)
 
-Project: XFIChecker (https://github.com/anonyaro/XFIChecker)
+**These notices, including the "Verified by XFIChecker" message and donation links, must remain visible in the TUI/CLI output, "About" dialogs, and all derivative works.**
 
-Support: https://dalink.to/xenyaro
+**Full details can be found in the [LICENSE](LICENSE) and [NOTICE](NOTICE) files.**
 
-These notices, including the "Verified by XFIChecker" message and donation links, must remain visible in the TUI/CLI output, "About" dialogs, and any derivative works.
-
-Copyright (C) 2026 anonyaro
-</strong>
+**Copyright (C) 2026 anonyaro**
