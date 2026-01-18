@@ -197,8 +197,8 @@ cmake --build build --target xfichecker_unit_tests
 [----------] 4 tests from HashingLogic (0 ms total)
 
 [  PASSED  ] 4 tests.
-</details>
 ```
+</details>
 
 # 🤝 Contributing
 
