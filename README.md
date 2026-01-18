@@ -92,7 +92,7 @@ Support XFIChecker:                         \\__\anonyaro/
 **Verify file integrity:**
 ```./XFIChecker --verify <file> --expected <hash>```
 
-***See ```./XFIChecker -help``` or ```./XFIChecker --h``` for detailed information***
+***See ```./XFIChecker --help``` or ```./XFIChecker -h``` for detailed information***
 
 ***General flags:***
 
