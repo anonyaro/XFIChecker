@@ -123,8 +123,8 @@ style="display:block;"
 *For manual build follow steps below:*
 ```
 cd XFIChecker
-cmake -B release -DCMAKE_BUILD_TYPE=Release or Debug for debug build
-cmake --build release
+cmake -B build -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release or Debug for debug build
+cmake --build build
 ```
 
 # 📋 Prerequisites
@@ -183,6 +183,7 @@ cmake --build build --target xfichecker_unit_tests
 ```
 <details>
 <summary>🔍 View Unit-Test Results</summary>
+
 [![Build, Test and Release](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml/badge.svg)](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml)
   
 ```text
