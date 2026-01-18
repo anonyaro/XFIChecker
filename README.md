@@ -78,6 +78,7 @@ Support XFIChecker:                         \\__\anonyaro/
 [3] About XFIChecker
 [4] Support the XFIChecker
 [5] Help to see more and usage sample
+[6] Check for available updates and versions
 [0] Exit Program
 ```
 ***Navigate through numbers available to proceed e.g: ```1 | 2 | 3 | 4 | 5 | 6```***  
