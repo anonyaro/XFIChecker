@@ -26,18 +26,19 @@
    *- Follow **C++17** standards.*
    *- Keep the code clean, readable, and well scalable.*
 3. **Automated Testing (Mandatory)**:
-   *We use **Google Test (GTest)** for unit testing.* 
-   *- If you modify the hashing logic or core engine, **run the existing tests**:*
+   *We use **Google Test (GTest)** for unit testing.*
+   
+   *If you modify the hashing logic or hashing engine, **run the existing tests**:*
      ```bash
      cmake -B build -DBUILD_TESTING=ON
      cmake --build build --target xfichecker_unit_tests
      ./build/xfichecker_unit_tests
      ```
    *- If you add a new algorithm, you **must** add a corresponding test case in `unit_tests/unit_test.cpp` with verified "ground truth" values.*
-4. **Build Verification**:
+5. **Build Verification**:
    *- Ensure the project builds without errors/warnings using **CMake** and **Ninja/Make**.*
    *- Verify that your changes don't break the TUI/CLI menu's.*
-5. **Mandatory Attribution**:
+6. **Mandatory Attribution**:
    *- Do not remove or modify the author attribution or donation links in the UI/Output unless specifically discussed.*
 
 ## 📜 License & Legal
