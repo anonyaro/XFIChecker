@@ -133,7 +133,7 @@ cmake --build release
 
 <a name="license"></a>
 
-# ⚡ Perfomance of XFIChecker on 1GB file (under wsl2)
+# ⚡ Perfomance of XFIChecker 
 ```mermaid 
 gantt
     title XFIChecker Performance (Execution Time)
@@ -147,6 +147,7 @@ gantt
     3.37s           :a3, 0, 3375
 ```
 ### 📋 Detailed 
+*The following benchmarks show the processing time for a **1GB file** and performed under **wsl2***
 ```
 Algorithm	Avg. Time	Estimated Speed	Status
 DJB2	0.851 s	~1203 MB/s	⚡ Ultra Fast
