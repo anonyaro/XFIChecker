@@ -184,6 +184,7 @@ cmake --build build --target xfichecker_unit_tests
 <details>
 <summary>🔍 View Unit-Test Results</summary>
 
+
 [![Build, Test and Release](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml/badge.svg)](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml)
   
 ```text
