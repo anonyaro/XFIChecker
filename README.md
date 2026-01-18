@@ -33,7 +33,7 @@
 </table>
 
 
-&emsp;&emsp; [![Build, Test and Release](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml/badge.svg)](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml)
+&emsp;     [![Build, Test and Release](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml/badge.svg)](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml)
  ![Tests](https://img.shields.io/badge/tests-4%20passed-brightgreen)
  ![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
  ![Latest Version](https://img.shields.io/github/v/release/anonyaro/XFIChecker?display_name=tag&color=orange)
