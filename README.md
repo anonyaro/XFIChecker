@@ -39,7 +39,7 @@
 
 ### 🐧 Linux x86-64
 
-***Before installing make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#prerequisites) installed***
+***Before installing make sure you have [Prerequisites](https://github.com/anonyaro/XFIChecker/blob/master/README.md#-prerequisites) installed***
 
 *Download the project: ```git clone https://github.com/anonyaro/XFIChecker.git```*
 
