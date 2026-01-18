@@ -71,7 +71,7 @@ __________________________________________________________
 >________________________________________________~ ~ ~ ~ <
                                             //  /   by   \
 Support XFIChecker:                         \\__\anonyaro/
-https://dalink.to/xenyaro                        \______/
+>https://dalink.to/xenyaro                       \______/
 
 [1] Calculate Hash
 [2] Verify Integrity
