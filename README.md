@@ -101,7 +101,7 @@ Support XFIChecker:                         \\__\anonyaro/
         -v, --version                    Show current version info and license info
         -cu, --check-updates             Check for available updates and versions
 
-# 💖 [XFIChecker is free and open-source. <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
+# 💖 [XFIChecker is free and open-source <br> Your support helps to keep the project alive](https://www.donationalerts.com/r/xenyaro) </br>
 
 <a href="https://www.donationalerts.com/r/xenyaro">
 <img
