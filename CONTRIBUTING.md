@@ -1,6 +1,6 @@
 # Contributing to XFIChecker
 
-First of all, thanks for taking the time to contribute! We appreciate your help in making XFIChecker more robust and faster.
+***First of all, thanks for taking the time to contribute! We appreciate your help in making XFIChecker more robust and faster.***
 
 ## How Can I Help?
 
