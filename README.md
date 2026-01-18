@@ -162,6 +162,44 @@ Adler32	3.375 s	~303 MB/s	⚖️ Balanced
 - **Disk**: NVMe SSD (Ext4 filesystem)
 - **Method**: Measured using `hyperfine` (10 runs, 3 warmups)
 
+## ✅ Quality Assurance & Testing
+
+The core hashing engine is covered by unit tests using **Google Test** to ensure mathematical correctness and stability.
+
+### Tested Algorithms:
+- **FNV-1a**: Verified against standard 64-bit vectors.
+- **DJB2**: Verified with standard seeds and strings.
+- **Adler-32**: Verified for 32-bit checksum integrity.
+- **Edge Cases**: Verified for empty strings and null inputs.
+
+### Running Tests:
+To run the tests locally, use:
+```bash
+cmake -B build -DBUILD_TESTING=ON
+cmake --build build --target xfichecker_unit_tests
+./build/xfichecker_unit_tests
+```
+<details>
+<summary>🔍 View GTest Output</summary>
+
+```text
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from HashingLogic
+[ RUN      ] HashingLogic.FNV1a_Test
+[       OK ] HashingLogic.FNV1a_Test (0 ms)
+[ RUN      ] HashingLogic.DJB2_Test
+[       OK ] HashingLogic.DJB2_Test (0 ms)
+[ RUN      ] HashingLogic.Adler32_Test
+[       OK ] HashingLogic.Adler32_Test (0 ms)
+[ RUN      ] HashingLogic.EmptyInput
+[       OK ] HashingLogic.EmptyInput (0 ms)
+[----------] 4 tests from HashingLogic (0 ms total)
+
+[  PASSED  ] 4 tests.
+</details>
+```
+
 # 🤝 Contributing
 
 *Contributions are welcome! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your help is appreciated.*
