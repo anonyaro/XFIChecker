@@ -25,6 +25,7 @@ echo "[DONE] All required tools found"
 echo
 
 # --- build type ---
+echo "[INFO] Select 'R' or 'D' to procced. Skipping sets it to [R]elease by default"
 read -r -p "Select build type ([R]elease/[D]ebug): " bt
 bt=${bt:-R}
 case "$bt" in
