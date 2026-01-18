@@ -183,7 +183,8 @@ cmake --build build --target xfichecker_unit_tests
 ```
 <details>
 <summary>🔍 View Unit-Test Results</summary>
-
+[![Build, Test and Release](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml/badge.svg)](https://github.com/anonyaro/XFIChecker/actions/workflows/ci.yml)
+  
 ```text
 [==========] Running 4 tests from 1 test suite.
 [----------] Global test environment set-up.
