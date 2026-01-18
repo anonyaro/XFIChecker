@@ -78,7 +78,7 @@ if [[ ! -f "$BIN_PATH" ]]; then
 fi
 
 # --- ask before running ---
-echo "------------------------------------"
+echo "[INFO] Build and compilation completed. Proceed to run"
 read -r -p "Do you want to run ${APP_NAME} now? [y/n]: " answer
 echo
 case "$answer" in
